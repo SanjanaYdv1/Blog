@@ -73,18 +73,16 @@ WSGI_APPLICATION = 'blogproject.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'blog_db',  # Your database name
+        'NAME': 'blog_app',  # Your database name
         'USER': 'your_username',  # Your MySQL username
         'PASSWORD': 'your_password',  # Your MySQL password
         'HOST': '127.0.0.1',  # or 'localhost'
         'PORT': '3306',  # MySQL default port
     }
 }
-
 
 
 # Password validation
